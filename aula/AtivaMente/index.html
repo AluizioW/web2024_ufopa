@@ -4,11 +4,122 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AtivaMente</title>
-    <link rel="stylesheet" href="style.css"/>
+    <style>
+        img{
+            height: 200px;
+            width: 300px;
+            border-radius: 50px;
+        }
+
+        .logo{
+            height: 50px;
+            width: 50px;
+            margin-left: 50%;
+        }
+
+        h1{
+            text-align: center;
+            color: cornflowerblue;
+        }
+
+        footer{
+            text-align: center;
+            font-size: 20px;
+            background-color: orange;
+            border: 20px solid orange;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Courier, monospace;
+        }
+
+        .texto{
+           padding: 10px;
+           text-align: center;
+           color: white;
+           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .ClubeDoLivro{
+            background-color: cornflowerblue;
+            width: 300px;
+            border: 10px solid cornflowerblue;
+            border-radius: 50px;
+        }
+
+        .GrupoDeEstudos{
+            background-color: burlywood;
+            width: 300px;
+            border: 10px solid burlywood;
+            border-radius: 15%;
+        }
+
+        .ReforcoEscolar{
+            background-color: cadetblue;
+            width: 300px;
+            border: 10px solid cadetblue;
+            border-radius: 50px;
+        }
+
+        .Brinquedoteca{
+            background-color: darksalmon;
+            width: 300px;
+            border: 10px solid darksalmon;
+            border-radius: 50px;
+        }
+
+        .titulo{
+            color: white;
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+    </style>
 </head>
 <body>
-    <header>AtivaMente: Educando para um Futuro Brilhante</header>
-    <h1>No AtivaMente, acreditamos que a educação vai além da sala de aula. Somos um espaço dedicado ao desenvolvimento integral de crianças e jovens, oferecendo diversas atividades que estimulam a mente e o aprendizado de forma divertida e envolvente.</h1>
-    
+    <div class="main">
+        <img class="logo" src="logo.png" alt="logo"/>
+        <h1>Projeto AtivaMente</h1>
+
+        <div class="ClubeDoLivro">
+            <img class="livro" src="books2.jpg" alt="book club"/>
+            <h2 class="titulo">Clube do Livro</h2>
+            <p class="texto">
+                Incentivamos o hábito da leitura através de encontros regulares, onde discutimos livros, 
+                exploramos novos autores e mergulhamos em mundos literários fascinantes. 
+                Ler nunca foi tão divertido!
+            </p>
+        </div>
+
+        <div class="GrupoDeEstudos">
+            <img class="estudos" src="studyGroup.jpg" alt="study group"/>
+            <h2 class="titulo">Grupo de Estudos</h2>
+            <p class="texto">
+                Criamos um ambiente colaborativo onde os alunos podem compartilhar conhecimentos, 
+                trocar ideias e se preparar para provas e trabalhos escolares. 
+                Juntos, somos mais fortes e aprendemos melhor.
+            </p>
+        </div>
+
+        <div class="ReforcoEscolar">
+            <img class="reforco" src="tutoring.jpg" alt="tutoring"/>
+            <h2 class="titulo">Reforço Escolar</h2>
+            <p class="texto">
+                Ajudamos os alunos a superar desafios acadêmicos com aulas personalizadas, 
+                focadas em suas necessidades específicas. 
+                Nossa equipe de educadores está pronta para auxiliar em todas as disciplinas, 
+                garantindo um aprendizado sólido e duradouro.
+            </p>
+        </div>
+
+        <div class="Brinquedoteca">
+            <img class="brinquedoteca" src="brinquedoteca.jpg" alt="playground"/>
+            <h2 class="titulo">Brinquedoteca</h2>
+            <p class="texto">
+                Aprender brincando é uma das formas mais eficazes de absorver conhecimento. 
+                Nossa brinquedoteca é um espaço lúdico e educativo, 
+                repleto de jogos e atividades que estimulam a criatividade e o desenvolvimento cognitivo.
+            </p>
+        </div>
+        <footer>
+            <p>Educando para um Futuro Brilhante</p>
+        </footer>
+    </div>
 </body>
 </html>
